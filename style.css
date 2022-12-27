@@ -1,0 +1,93 @@
+/* 
+body{
+    padding:50px;
+}
+button{
+    background-color: rgb(45, 122, 177);
+    border:2px dotted rgb(177, 54, 75);
+    padding:10px;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    border-radius: 30px;
+
+}
+button:hover{
+background-color: beige;
+}
+button:focus{
+    background: black;
+}
+button:disabled{
+    cursor:not-allowed;
+    opacity:0.3;
+}<!-- MEDIA QUERIES AND FLEX BOX --> */
+/* tablet-768px
+laptop-1020px
+pc-1400px */
+/* body{
+    background-color: green;
+}
+@media(min-width:768px){
+    body{
+        background-color: blue;
+    }
+}
+@media(min-width:1020px){
+   body{
+   background-color:red;}
+}
+@media(min-width:1040px){
+   body{ background-color: }
+} */
+/* body{
+    background-color: black;
+    padding:200px;
+}
+.parent{
+    background-color:orange;
+    height:400px;
+    width:800px;
+    display:flex;
+    flex-wrap: wrap;overflow: hidden;
+    gap:5px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: baseline;
+}
+.child{
+    background: red;
+    width:200px;
+    height:200px;
+    margin:10px;
+}
+.child2{
+    background:green;
+    width:200px;
+    height: 400px;
+} */
+/* .parent{
+    background-color: beige;
+    height: 800px;
+    width:800px;
+    justify-content: center; */
+
+.child{
+    background-color:orange;
+    height:300px;
+    width:300px;
+    margin:50px;
+}
+@media(min-width=768px){
+   body{ background-color:blue;}
+}
+@media(min-width=1020px){
+    body{
+        background-color: brown;
+    }
+}
+@media(min-width=1040px){
+    body{
+        background-color: rgb(84, 180, 43);
+    }
+}

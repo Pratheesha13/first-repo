@@ -1,0 +1,19 @@
+
+.parent{
+    background-color: blue;
+    height:300px;
+    width:300px;
+    margin:500px;
+}
+@media(min-width:768px){
+  .parent{ background-color:palevioletred;}
+}
+@media(min-width:1020px){
+    .parent{
+        background-color:brown;
+}
+}
+@media(min-width:1040px){
+   .parent{background-color:yellow;}
+
+}
